@@ -1,0 +1,2 @@
+pycryptodome==3.17
+eyed3==0.9.7
