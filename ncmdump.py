@@ -123,7 +123,7 @@ def list_all_ncm_file() -> Iterator[str]:
     for file_name in os.listdir("./"):
         if os.path.isfile(f"./{file_name}") and file_name.endswith(".ncm"):
             yield file_name
-            break
+            # break
 
 
 if __name__ == '__main__':
